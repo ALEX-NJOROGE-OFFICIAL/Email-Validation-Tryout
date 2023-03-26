@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4th Webpage with Email Validation</title>
+
+    <link rel="stylesheet" href="4th.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="forms">
+        <div class="form login">
+            <span class="title">Login
+            </span>
+
+            <form action="" name="loginform">
+                <div class="input-field">
+                    <input type="text" name="email" required placeholder ="Enter your Email">
+                    <i class="fa-solid fa-envelope icon"></i>
+                    
+                </div>
+
+                <div class="input-field">
+                    <input type="password" name="password" class="password" placeholder ="Enter your Email">
+                    <i class="fa-solid fa-lock icon"></i>
+                    <i class="fa-solid fa-eye-slash showhidepw"></i>
+                    
+                </div>
+
+                <div class="checkbox-text">
+                    <div checkbox-content>
+                        <input type="checkbox" id="logcheck" >
+                        <label for="logcheck" class="text">Remember Me</label>
+                    </div>
+                    <a href="#" class="text">Forgot Password</a>
+                </div>
+
+                <div class="input-field button">   
+
+                    <input type="submit" value="Login" >
+                </div>
+
+
+            </form>
+
+            <div class="login-signup">
+                <span class="text">Not a member</span>
+                <a href="#" class="text signup-link">Sign Up</a>
+
+            </div>
+            </div>
+
+            <!--Registration Section-->
+
+            <div class="form signup">
+                <span class="title">Registration</span>
+                <form name="signupform">
+                    <div class="input-field">
+                        <input type="text" name="name" placeholder="Enter your full Name">
+                        <i class="fa-solid fa-user icon"></i>
+                    </div>
+                    
+                    <div class="input-field">
+                        <input type="text" name="email" placeholder="Enter your Email">
+                        <i class="fa-solid fa-envelope icon"></i>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="password" name="password" placeholder="Create your Password" class="password">
+                        <i class="fa-solid fa-lock icon"></i>
+                        <i class="fa-solid fa-eye-slash showhidepw"></i>
+                    </div>
+
+                    <div class="input-field ">
+                        <input type="password" name="confirmpwd" class="password" placeholder="Confirm your Password"> 
+                        <i class="fa-solid fa-lock"></i>
+                        <i class="fa-solid fa-eye-slash showhidepw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="termcon">
+                            <label for="termcon" class="text">I accept all terms and conditions</label>
+                        </div>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="submit" value="Sign up">
+                    </div>
+
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Already a member?
+                        <a href="#" class="text login-link">Login Now</a>
+                    </span>
+                </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+<!--Javascript begins here-->
+
+<script src="script.js">
+
+
+</script>
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
